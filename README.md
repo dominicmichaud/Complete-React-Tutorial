@@ -7,6 +7,7 @@ Using the concepts learned in the course, I fused them with my own React knowled
 # OG Resources:
 
 https://netninja.dev/
+
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
 
 # Install node modules

@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavbarMenu from './components/navbar/NavbarMenu';
+import ScrollToTop from './components/helpers/ScrollToTop';
+import SnackBar from './components/helpers/SnackBar';
+import Store from './context/store';
+import RouterSwitch from './components/helpers/RouterSwitch';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTop />
+      <Store>
+        <div className="App">
+          <NavbarMenu />
+          <div id="main">
+            <RouterSwitch />
+          </div>
+          <SnackBar />
+        </div>
+      </Store>
+    </Router>
   );
 }
 

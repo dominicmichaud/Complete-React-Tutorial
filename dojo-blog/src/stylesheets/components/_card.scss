@@ -1,0 +1,75 @@
+.card-motion-wrapper,
+.card {
+  height: 100%;
+}
+
+.more-menu-wrapper {
+  position: relative;
+  width: 100%;
+
+  button {
+    &.more-actions-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      display: flex;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      border: 0;
+      background: none;
+      z-index: 10;
+      cursor: pointer;
+      transition: 0.2s ease;
+
+      svg {
+        font-size: 2.25em;
+        transition: 0.2s ease;
+      }
+
+      &:hover {
+        svg {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .hidden-menu {
+    position: absolute;
+    right: 8px;
+    top: 32px;
+    z-index: 12;
+
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        transition: 0.2s ease;
+
+        a {
+          &.more-link {
+            display: flex;
+            align-items: center;
+            transition: 0.2s ease;
+            color: #4a4a4a;
+
+            &:hover {
+              color: #33b79f;
+
+              svg {
+                color: #33b79f;
+              }
+            }
+          }
+        }
+
+        svg {
+          margin-right: 8px;
+          transition: 0.2s ease;
+        }
+      }
+    }
+  }
+}

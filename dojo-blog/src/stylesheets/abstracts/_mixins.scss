@@ -1,0 +1,10 @@
+@keyframes text_loader {
+  to {
+    left: 100%;
+    opacity: 0;
+  }
+  from {
+    left: 0;
+    opacity: 1;
+  }
+}

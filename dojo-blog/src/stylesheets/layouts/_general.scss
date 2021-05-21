@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: $quicksand;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+
+  &.has-navbar-fixed-top {
+    padding-top: 0;
+  }
+}

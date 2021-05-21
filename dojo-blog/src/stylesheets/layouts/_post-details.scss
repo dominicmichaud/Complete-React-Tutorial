@@ -1,0 +1,19 @@
+.post-detail-container {
+  .author-wrapper {
+    margin-bottom: 25px;
+
+    p {
+      &.publish-by {
+        font-size: 0.75rem;
+        color: #7b7b7b;
+      }
+    }
+  }
+
+  .post-content {
+    p {
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.navbar {
+  transition: 0.2s ease;
+
+  &.is-transparent {
+    background: none;
+  }
+
+  &.navbar-scroll-active {
+    background: rgb(116, 235, 209);
+  }
+
+  .animated-logo {
+    display: flex;
+
+    svg {
+      .main-logo {
+        width: 34px;
+      }
+    }
+  }
+
+  a {
+    &.navbar-item {
+      transition: 0.2s ease;
+
+      &.is-active {
+        color: #2e78c5;
+      }
+
+      &.nav-add-post {
+        svg {
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+
+  .navbar-burger {
+    color: #fff;
+  }
+}

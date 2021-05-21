@@ -1,0 +1,15 @@
+.create-form-content {
+  .select,
+  select {
+    width: 100%;
+  }
+}
+
+.form-wrapper {
+  position: relative;
+
+  p.required-notice {
+    color: #9e9e9e;
+    text-align: right;
+  }
+}

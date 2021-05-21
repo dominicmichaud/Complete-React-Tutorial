@@ -8,6 +8,8 @@ Using the concepts learned in the course, I fused them with my own React knowled
 
 https://netninja.dev/
 
+https://github.com/iamshaunjp/Complete-React-Tutorial
+
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
 
 # Install node modules

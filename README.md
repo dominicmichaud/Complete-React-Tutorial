@@ -30,5 +30,7 @@ npm run start
 
 # Run Json-Server
 
-`nvm use 12.22.1`
-`npx json-server --watch src/data/db.json --port 8000`
+```
+nvm use 12.22.1
+npx json-server --watch src/data/db.json --port 8000
+```
